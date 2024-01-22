@@ -8,7 +8,7 @@
  var nope = document.getElementById('nope');
  
 
-    var token = '6934231970:AAF3edzKWVPuFxD0_mqPeEf4TXRDJ5ED9uU'; // Ganti dengan token bot yang kamu buat
+    var token = '6412748765:AAHXOm7qWWw5PEKFcCHpnadJXV7XEc6DhzY'; // Ganti dengan token bot yang kamu buat
     var grup = '6541745267'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
